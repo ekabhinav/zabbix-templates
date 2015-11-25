@@ -8,3 +8,5 @@ You have to set the following macros at the monitored host
 
 At the Barracuda Appliance, you have to set the same user and password.
 Use Authentication protocol MD5 and Privacy protocol DES.
+
+Tested with version 7.1.x
