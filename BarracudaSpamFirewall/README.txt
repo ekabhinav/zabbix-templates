@@ -2,7 +2,7 @@ Barracuda SPAM Firewall Zabbix Template
 
 Source informations from Barracuda: https://techlib.barracuda.com/bsf/snmpguide
 
-You have to set the following macros at the ZABBIX host
+You have to set the following macros at the monitored host
 {$SNMPV3_USER}
 {$SNMPV3_PASS}
 
