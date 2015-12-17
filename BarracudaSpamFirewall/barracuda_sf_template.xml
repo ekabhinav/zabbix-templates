@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>2.0</version>
-    <date>2015-10-15T09:20:07Z</date>
+    <date>2015-11-25T07:34:49Z</date>
     <groups>
         <group>
-            <name>Templates_METANET_Specials</name>
+            <name>Templates</name>
         </group>
     </groups>
     <templates>
         <template>
-            <template>MN TL Barracuda Spam Firewall SNMPv3</template>
-            <name>MN TL Barracuda Spam Firewall SNMPv3</name>
+            <template>Barracuda Spam Firewall SNMPv3</template>
+            <name>Barracuda Spam Firewall SNMPv3</name>
             <description/>
             <groups>
                 <group>
-                    <name>Templates_METANET_Specials</name>
+                    <name>Templates</name>
                 </group>
             </groups>
             <applications>
@@ -23,6 +23,9 @@
                 </application>
                 <application>
                     <name>Barracuda System</name>
+                </application>
+                <application>
+                    <name>Interfaces</name>
                 </application>
             </applications>
             <items>
@@ -33,7 +36,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.20632.2.5</snmp_oid>
                     <key>avgEmailLatency</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -76,7 +79,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.20632.2.15</snmp_oid>
                     <key>cpuFanSpeed</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -119,7 +122,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.20632.2.16</snmp_oid>
                     <key>cpuTemperature</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -162,7 +165,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.20632.2.36</snmp_oid>
                     <key>dailyAllowed</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -205,7 +208,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.20632.2.54</snmp_oid>
                     <key>dailyEncrypted</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -248,7 +251,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.20632.2.21</snmp_oid>
                     <key>dailyInboundBlocked</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -291,7 +294,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.20632.2.30</snmp_oid>
                     <key>dailyInboundQuarantined</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -334,7 +337,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.20632.2.27</snmp_oid>
                     <key>dailyInboundRateControlled</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -377,7 +380,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.20632.2.33</snmp_oid>
                     <key>dailyInboundTagged</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -420,7 +423,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.20632.2.24</snmp_oid>
                     <key>dailyInboundVirusBlocked</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -463,7 +466,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.20632.2.39</snmp_oid>
                     <key>dailyOutboundPolicyBlocked</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -506,7 +509,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.20632.2.51</snmp_oid>
                     <key>dailyOutboundQuarantined</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -549,7 +552,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.20632.2.48</snmp_oid>
                     <key>dailyOutboundRateControlled</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -592,7 +595,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.20632.2.42</snmp_oid>
                     <key>dailyOutboundSpamBlocked</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -635,7 +638,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.20632.2.45</snmp_oid>
                     <key>dailyOutboundVirusBlocked</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -678,7 +681,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.20632.2.57</snmp_oid>
                     <key>dailyRedirected</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -721,7 +724,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.20632.2.60</snmp_oid>
                     <key>dailySent</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -764,7 +767,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.20632.2.4</snmp_oid>
                     <key>deferredQueueSize</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -807,7 +810,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.20632.2.62</snmp_oid>
                     <key>domainCount</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -850,7 +853,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.20632.2.9</snmp_oid>
                     <key>encryptionEnabled</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -893,7 +896,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.20632.2.17</snmp_oid>
                     <key>firmwareStorage</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -936,7 +939,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.20632.2.37</snmp_oid>
                     <key>hourlyAllowed</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -979,7 +982,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.20632.2.55</snmp_oid>
                     <key>hourlyEncrypted</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -1022,7 +1025,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.20632.2.22</snmp_oid>
                     <key>hourlyInboundBlocked</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -1065,7 +1068,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.20632.2.31</snmp_oid>
                     <key>hourlyInboundQuarantined</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -1108,7 +1111,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.20632.2.28</snmp_oid>
                     <key>hourlyInboundRateControlled</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -1151,7 +1154,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.20632.2.34</snmp_oid>
                     <key>hourlyInboundTagged</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -1194,7 +1197,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.20632.2.25</snmp_oid>
                     <key>hourlyInboundVirusBlocked</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -1237,7 +1240,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.20632.2.40</snmp_oid>
                     <key>hourlyOutboundPolicyBlocked</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -1280,7 +1283,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.20632.2.52</snmp_oid>
                     <key>hourlyOutboundQuarantined</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -1323,7 +1326,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.20632.2.49</snmp_oid>
                     <key>hourlyOutboundRateControlled</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -1366,7 +1369,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.20632.2.43</snmp_oid>
                     <key>hourlyOutboundSpamBlocked</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -1409,7 +1412,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.20632.2.46</snmp_oid>
                     <key>hourlyOutboundVirusBlocked</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -1452,7 +1455,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.20632.2.58</snmp_oid>
                     <key>hourlyRedirected</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -1495,7 +1498,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.20632.2.61</snmp_oid>
                     <key>hourlySent</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -1538,7 +1541,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.20632.2.2</snmp_oid>
                     <key>inQueueSize</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -1581,7 +1584,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.20632.2.11</snmp_oid>
                     <key>lastMessageDelivery</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -1624,7 +1627,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.20632.2.18</snmp_oid>
                     <key>maillogStorage</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -1667,7 +1670,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.20632.2.8</snmp_oid>
                     <key>notifyQueueSize</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -1710,7 +1713,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.20632.2.3</snmp_oid>
                     <key>outQueueSize</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -1753,7 +1756,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.20632.2.19</snmp_oid>
                     <key>raidStatus</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -1796,7 +1799,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.20632.2.14</snmp_oid>
                     <key>sysFanSpeed</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -1839,7 +1842,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.20632.2.13</snmp_oid>
                     <key>systemLoad</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -1882,7 +1885,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.20632.2.35</snmp_oid>
                     <key>totalAllowed</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -1925,7 +1928,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.20632.2.53</snmp_oid>
                     <key>totalEncrypted</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -1968,7 +1971,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.20632.2.20</snmp_oid>
                     <key>totalInboundBlocked</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -2011,7 +2014,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.20632.2.29</snmp_oid>
                     <key>totalInboundQuarantined</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -2054,7 +2057,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.20632.2.26</snmp_oid>
                     <key>totalInboundRateControlled</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -2097,7 +2100,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.20632.2.32</snmp_oid>
                     <key>totalInboundTagged</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -2140,7 +2143,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.20632.2.23</snmp_oid>
                     <key>totalInboundVirusBlocked</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -2183,7 +2186,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.20632.2.38</snmp_oid>
                     <key>totalOutboundPolicyBlocked</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -2226,7 +2229,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.20632.2.50</snmp_oid>
                     <key>totalOutboundQuarantined</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -2269,7 +2272,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.20632.2.47</snmp_oid>
                     <key>totalOutboundRateControlled</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -2312,7 +2315,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.20632.2.41</snmp_oid>
                     <key>totalOutboundSpamBlocked</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -2355,7 +2358,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.20632.2.44</snmp_oid>
                     <key>totalOutboundVirusBlocked</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -2398,7 +2401,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.20632.2.56</snmp_oid>
                     <key>totalRedirected</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -2441,7 +2444,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.20632.2.59</snmp_oid>
                     <key>totalSent</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -2484,7 +2487,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.20632.2.12</snmp_oid>
                     <key>uniqueRecipients</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -2521,19 +2524,451 @@
                     <logtimefmt/>
                 </item>
             </items>
-            <discovery_rules/>
+            <discovery_rules>
+                <discovery_rule>
+                    <name>Network interfaces</name>
+                    <type>6</type>
+                    <snmp_community/>
+                    <snmp_oid>IF-MIB::ifDescr</snmp_oid>
+                    <key>ifDescr</key>
+                    <delay>3600</delay>
+                    <status>0</status>
+                    <allowed_hosts/>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname>{$SNMPV3_USER}</snmpv3_securityname>
+                    <snmpv3_securitylevel>2</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase>{$SNMPV3_PASS}</snmpv3_authpassphrase>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase>{$SNMPV3_PASS}</snmpv3_privpassphrase>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port>161</port>
+                    <filter>
+                        <evaltype>0</evaltype>
+                        <formula/>
+                        <conditions/>
+                    </filter>
+                    <lifetime>0</lifetime>
+                    <description/>
+                    <item_prototypes>
+                        <item_prototype>
+                            <name>Admin status of interface $1</name>
+                            <type>6</type>
+                            <snmp_community/>
+                            <multiplier>0</multiplier>
+                            <snmp_oid>IF-MIB::ifAdminStatus.{#SNMPINDEX}</snmp_oid>
+                            <key>ifAdminStatus[{#SNMPVALUE}]</key>
+                            <delay>60</delay>
+                            <history>7</history>
+                            <trends>365</trends>
+                            <status>0</status>
+                            <value_type>3</value_type>
+                            <allowed_hosts/>
+                            <units/>
+                            <delta>0</delta>
+                            <snmpv3_contextname/>
+                            <snmpv3_securityname>{$SNMPV3_USER}</snmpv3_securityname>
+                            <snmpv3_securitylevel>2</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase>{$SNMPV3_PASS}</snmpv3_authpassphrase>
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase>{$SNMPV3_PASS}</snmpv3_privpassphrase>
+                            <formula>1</formula>
+                            <delay_flex/>
+                            <params/>
+                            <ipmi_sensor/>
+                            <data_type>0</data_type>
+                            <authtype>0</authtype>
+                            <username/>
+                            <password/>
+                            <publickey/>
+                            <privatekey/>
+                            <port>161</port>
+                            <description>The desired state of the interface.</description>
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>Interfaces</name>
+                                </application>
+                            </applications>
+                            <valuemap>
+                                <name>SNMP interface status (ifAdminStatus)</name>
+                            </valuemap>
+                            <logtimefmt/>
+                        </item_prototype>
+                        <item_prototype>
+                            <name>Alias of interface $1</name>
+                            <type>6</type>
+                            <snmp_community/>
+                            <multiplier>0</multiplier>
+                            <snmp_oid>IF-MIB::ifAlias.{#SNMPINDEX}</snmp_oid>
+                            <key>ifAlias[{#SNMPVALUE}]</key>
+                            <delay>3600</delay>
+                            <history>7</history>
+                            <trends>365</trends>
+                            <status>0</status>
+                            <value_type>1</value_type>
+                            <allowed_hosts/>
+                            <units/>
+                            <delta>0</delta>
+                            <snmpv3_contextname/>
+                            <snmpv3_securityname>{$SNMPV3_USER}</snmpv3_securityname>
+                            <snmpv3_securitylevel>2</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase>{$SNMPV3_PASS}</snmpv3_authpassphrase>
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase>{$SNMPV3_PASS}</snmpv3_privpassphrase>
+                            <formula>1</formula>
+                            <delay_flex/>
+                            <params/>
+                            <ipmi_sensor/>
+                            <data_type>0</data_type>
+                            <authtype>0</authtype>
+                            <username/>
+                            <password/>
+                            <publickey/>
+                            <privatekey/>
+                            <port>161</port>
+                            <description/>
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>Interfaces</name>
+                                </application>
+                            </applications>
+                            <valuemap/>
+                            <logtimefmt/>
+                        </item_prototype>
+                        <item_prototype>
+                            <name>Description of interface $1</name>
+                            <type>6</type>
+                            <snmp_community/>
+                            <multiplier>0</multiplier>
+                            <snmp_oid>IF-MIB::ifDescr.{#SNMPINDEX}</snmp_oid>
+                            <key>ifDescr[{#SNMPVALUE}]</key>
+                            <delay>3600</delay>
+                            <history>7</history>
+                            <trends>365</trends>
+                            <status>0</status>
+                            <value_type>1</value_type>
+                            <allowed_hosts/>
+                            <units/>
+                            <delta>0</delta>
+                            <snmpv3_contextname/>
+                            <snmpv3_securityname>{$SNMPV3_USER}</snmpv3_securityname>
+                            <snmpv3_securitylevel>2</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase>{$SNMPV3_PASS}</snmpv3_authpassphrase>
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase>{$SNMPV3_PASS}</snmpv3_privpassphrase>
+                            <formula>1</formula>
+                            <delay_flex/>
+                            <params/>
+                            <ipmi_sensor/>
+                            <data_type>0</data_type>
+                            <authtype>0</authtype>
+                            <username/>
+                            <password/>
+                            <publickey/>
+                            <privatekey/>
+                            <port>161</port>
+                            <description>A textual string containing information about the interface.  This string should include the name of the manufacturer, the product name and the version of the interface hardware/software.</description>
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>Interfaces</name>
+                                </application>
+                            </applications>
+                            <valuemap/>
+                            <logtimefmt/>
+                        </item_prototype>
+                        <item_prototype>
+                            <name>Inbound errors on interface $1</name>
+                            <type>6</type>
+                            <snmp_community/>
+                            <multiplier>0</multiplier>
+                            <snmp_oid>IF-MIB::ifInErrors.{#SNMPINDEX}</snmp_oid>
+                            <key>ifInErrors[{#SNMPVALUE}]</key>
+                            <delay>60</delay>
+                            <history>7</history>
+                            <trends>365</trends>
+                            <status>0</status>
+                            <value_type>3</value_type>
+                            <allowed_hosts/>
+                            <units/>
+                            <delta>1</delta>
+                            <snmpv3_contextname/>
+                            <snmpv3_securityname>{$SNMPV3_USER}</snmpv3_securityname>
+                            <snmpv3_securitylevel>2</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase>{$SNMPV3_PASS}</snmpv3_authpassphrase>
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase>{$SNMPV3_PASS}</snmpv3_privpassphrase>
+                            <formula>1</formula>
+                            <delay_flex/>
+                            <params/>
+                            <ipmi_sensor/>
+                            <data_type>0</data_type>
+                            <authtype>0</authtype>
+                            <username/>
+                            <password/>
+                            <publickey/>
+                            <privatekey/>
+                            <port>161</port>
+                            <description>For packet-oriented interfaces, the number of inbound packets that contained errors preventing them from being deliverable to a higher-layer protocol.  For character-oriented or fixed-length interfaces, the number of inbound transmission units that contained errors preventing them from being deliverable to a higher-layer protocol.</description>
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>Interfaces</name>
+                                </application>
+                            </applications>
+                            <valuemap/>
+                            <logtimefmt/>
+                        </item_prototype>
+                        <item_prototype>
+                            <name>Incoming traffic on interface $1</name>
+                            <type>6</type>
+                            <snmp_community/>
+                            <multiplier>1</multiplier>
+                            <snmp_oid>IF-MIB::ifInOctets.{#SNMPINDEX}</snmp_oid>
+                            <key>ifInOctets[{#SNMPVALUE}]</key>
+                            <delay>60</delay>
+                            <history>7</history>
+                            <trends>365</trends>
+                            <status>0</status>
+                            <value_type>3</value_type>
+                            <allowed_hosts/>
+                            <units>bps</units>
+                            <delta>1</delta>
+                            <snmpv3_contextname/>
+                            <snmpv3_securityname>{$SNMPV3_USER}</snmpv3_securityname>
+                            <snmpv3_securitylevel>2</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase>{$SNMPV3_PASS}</snmpv3_authpassphrase>
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase>{$SNMPV3_PASS}</snmpv3_privpassphrase>
+                            <formula>8</formula>
+                            <delay_flex/>
+                            <params/>
+                            <ipmi_sensor/>
+                            <data_type>0</data_type>
+                            <authtype>0</authtype>
+                            <username/>
+                            <password/>
+                            <publickey/>
+                            <privatekey/>
+                            <port>161</port>
+                            <description>The number of octets in valid MAC frames received on this interface, including the MAC header and FCS.</description>
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>Interfaces</name>
+                                </application>
+                            </applications>
+                            <valuemap/>
+                            <logtimefmt/>
+                        </item_prototype>
+                        <item_prototype>
+                            <name>Operational status of interface $1</name>
+                            <type>6</type>
+                            <snmp_community/>
+                            <multiplier>0</multiplier>
+                            <snmp_oid>IF-MIB::ifOperStatus.{#SNMPINDEX}</snmp_oid>
+                            <key>ifOperStatus[{#SNMPVALUE}]</key>
+                            <delay>60</delay>
+                            <history>7</history>
+                            <trends>365</trends>
+                            <status>0</status>
+                            <value_type>3</value_type>
+                            <allowed_hosts/>
+                            <units/>
+                            <delta>0</delta>
+                            <snmpv3_contextname/>
+                            <snmpv3_securityname>{$SNMPV3_USER}</snmpv3_securityname>
+                            <snmpv3_securitylevel>2</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase>{$SNMPV3_PASS}</snmpv3_authpassphrase>
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase>{$SNMPV3_PASS}</snmpv3_privpassphrase>
+                            <formula>1</formula>
+                            <delay_flex/>
+                            <params/>
+                            <ipmi_sensor/>
+                            <data_type>0</data_type>
+                            <authtype>0</authtype>
+                            <username/>
+                            <password/>
+                            <publickey/>
+                            <privatekey/>
+                            <port>161</port>
+                            <description>The current operational state of the interface.</description>
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>Interfaces</name>
+                                </application>
+                            </applications>
+                            <valuemap>
+                                <name>SNMP interface status (ifOperStatus)</name>
+                            </valuemap>
+                            <logtimefmt/>
+                        </item_prototype>
+                        <item_prototype>
+                            <name>Outbound errors on interface $1</name>
+                            <type>6</type>
+                            <snmp_community/>
+                            <multiplier>0</multiplier>
+                            <snmp_oid>IF-MIB::ifOutErrors.{#SNMPINDEX}</snmp_oid>
+                            <key>ifOutErrors[{#SNMPVALUE}]</key>
+                            <delay>30</delay>
+                            <history>7</history>
+                            <trends>365</trends>
+                            <status>0</status>
+                            <value_type>3</value_type>
+                            <allowed_hosts/>
+                            <units/>
+                            <delta>1</delta>
+                            <snmpv3_contextname/>
+                            <snmpv3_securityname>{$SNMPV3_USER}</snmpv3_securityname>
+                            <snmpv3_securitylevel>2</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase>{$SNMPV3_PASS}</snmpv3_authpassphrase>
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase>{$SNMPV3_PASS}</snmpv3_privpassphrase>
+                            <formula>1</formula>
+                            <delay_flex/>
+                            <params/>
+                            <ipmi_sensor/>
+                            <data_type>0</data_type>
+                            <authtype>0</authtype>
+                            <username/>
+                            <password/>
+                            <publickey/>
+                            <privatekey/>
+                            <port>161</port>
+                            <description>For packet-oriented interfaces, the number of outbound packets that could not be transmitted because of errors. For character-oriented or fixed-length interfaces, the number of outbound transmission units that could not be transmitted because of errors.</description>
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>Interfaces</name>
+                                </application>
+                            </applications>
+                            <valuemap/>
+                            <logtimefmt/>
+                        </item_prototype>
+                        <item_prototype>
+                            <name>Outgoing traffic on interface $1</name>
+                            <type>6</type>
+                            <snmp_community/>
+                            <multiplier>1</multiplier>
+                            <snmp_oid>IF-MIB::ifOutOctets.{#SNMPINDEX}</snmp_oid>
+                            <key>ifOutOctets[{#SNMPVALUE}]</key>
+                            <delay>60</delay>
+                            <history>7</history>
+                            <trends>365</trends>
+                            <status>0</status>
+                            <value_type>3</value_type>
+                            <allowed_hosts/>
+                            <units>bps</units>
+                            <delta>1</delta>
+                            <snmpv3_contextname/>
+                            <snmpv3_securityname>{$SNMPV3_USER}</snmpv3_securityname>
+                            <snmpv3_securitylevel>2</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase>{$SNMPV3_PASS}</snmpv3_authpassphrase>
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase>{$SNMPV3_PASS}</snmpv3_privpassphrase>
+                            <formula>8</formula>
+                            <delay_flex/>
+                            <params/>
+                            <ipmi_sensor/>
+                            <data_type>0</data_type>
+                            <authtype>0</authtype>
+                            <username/>
+                            <password/>
+                            <publickey/>
+                            <privatekey/>
+                            <port>161</port>
+                            <description>The number of octets transmitted in MAC frames on this interface, including the MAC header and FCS.</description>
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>Interfaces</name>
+                                </application>
+                            </applications>
+                            <valuemap/>
+                            <logtimefmt/>
+                        </item_prototype>
+                    </item_prototypes>
+                    <trigger_prototypes/>
+                    <graph_prototypes>
+                        <graph_prototype>
+                            <name>Traffic on interface {#SNMPVALUE}</name>
+                            <width>900</width>
+                            <height>200</height>
+                            <yaxismin>0.0000</yaxismin>
+                            <yaxismax>100.0000</yaxismax>
+                            <show_work_period>1</show_work_period>
+                            <show_triggers>1</show_triggers>
+                            <type>0</type>
+                            <show_legend>1</show_legend>
+                            <show_3d>0</show_3d>
+                            <percent_left>0.0000</percent_left>
+                            <percent_right>0.0000</percent_right>
+                            <ymin_type_1>0</ymin_type_1>
+                            <ymax_type_1>0</ymax_type_1>
+                            <ymin_item_1>0</ymin_item_1>
+                            <ymax_item_1>0</ymax_item_1>
+                            <graph_items>
+                                <graph_item>
+                                    <sortorder>0</sortorder>
+                                    <drawtype>5</drawtype>
+                                    <color>00C800</color>
+                                    <yaxisside>0</yaxisside>
+                                    <calc_fnc>4</calc_fnc>
+                                    <type>0</type>
+                                    <item>
+                                        <host>Barracuda Spam Firewall SNMPv3</host>
+                                        <key>ifInOctets[{#SNMPVALUE}]</key>
+                                    </item>
+                                </graph_item>
+                                <graph_item>
+                                    <sortorder>1</sortorder>
+                                    <drawtype>0</drawtype>
+                                    <color>0000EE</color>
+                                    <yaxisside>0</yaxisside>
+                                    <calc_fnc>4</calc_fnc>
+                                    <type>0</type>
+                                    <item>
+                                        <host>Barracuda Spam Firewall SNMPv3</host>
+                                        <key>ifOutOctets[{#SNMPVALUE}]</key>
+                                    </item>
+                                </graph_item>
+                            </graph_items>
+                        </graph_prototype>
+                    </graph_prototypes>
+                    <host_prototypes/>
+                </discovery_rule>
+            </discovery_rules>
             <macros/>
             <templates/>
             <screens>
                 <screen>
                     <name>Barracuda Overview</name>
                     <hsize>2</hsize>
-                    <vsize>3</vsize>
+                    <vsize>4</vsize>
                     <screen_items>
                         <screen_item>
                             <resourcetype>0</resourcetype>
-                            <width>500</width>
-                            <height>100</height>
+                            <width>600</width>
+                            <height>200</height>
                             <x>0</x>
                             <y>0</y>
                             <colspan>1</colspan>
@@ -2547,15 +2982,15 @@
                             <sort_triggers>0</sort_triggers>
                             <resource>
                                 <name>System Load</name>
-                                <host>MN TL Barracuda Spam Firewall SNMPv3</host>
+                                <host>Barracuda Spam Firewall SNMPv3</host>
                             </resource>
                             <max_columns>3</max_columns>
                             <application/>
                         </screen_item>
                         <screen_item>
                             <resourcetype>0</resourcetype>
-                            <width>500</width>
-                            <height>100</height>
+                            <width>600</width>
+                            <height>200</height>
                             <x>1</x>
                             <y>0</y>
                             <colspan>1</colspan>
@@ -2569,15 +3004,15 @@
                             <sort_triggers>0</sort_triggers>
                             <resource>
                                 <name>Disk Usage</name>
-                                <host>MN TL Barracuda Spam Firewall SNMPv3</host>
+                                <host>Barracuda Spam Firewall SNMPv3</host>
                             </resource>
                             <max_columns>3</max_columns>
                             <application/>
                         </screen_item>
                         <screen_item>
                             <resourcetype>0</resourcetype>
-                            <width>500</width>
-                            <height>100</height>
+                            <width>600</width>
+                            <height>200</height>
                             <x>0</x>
                             <y>1</y>
                             <colspan>1</colspan>
@@ -2591,15 +3026,15 @@
                             <sort_triggers>0</sort_triggers>
                             <resource>
                                 <name>Temperature and Fans</name>
-                                <host>MN TL Barracuda Spam Firewall SNMPv3</host>
+                                <host>Barracuda Spam Firewall SNMPv3</host>
                             </resource>
                             <max_columns>3</max_columns>
                             <application/>
                         </screen_item>
                         <screen_item>
                             <resourcetype>0</resourcetype>
-                            <width>500</width>
-                            <height>100</height>
+                            <width>600</width>
+                            <height>200</height>
                             <x>1</x>
                             <y>1</y>
                             <colspan>1</colspan>
@@ -2613,15 +3048,15 @@
                             <sort_triggers>0</sort_triggers>
                             <resource>
                                 <name>Message Latency</name>
-                                <host>MN TL Barracuda Spam Firewall SNMPv3</host>
+                                <host>Barracuda Spam Firewall SNMPv3</host>
                             </resource>
                             <max_columns>3</max_columns>
                             <application/>
                         </screen_item>
                         <screen_item>
                             <resourcetype>0</resourcetype>
-                            <width>500</width>
-                            <height>100</height>
+                            <width>600</width>
+                            <height>200</height>
                             <x>0</x>
                             <y>2</y>
                             <colspan>1</colspan>
@@ -2635,15 +3070,15 @@
                             <sort_triggers>0</sort_triggers>
                             <resource>
                                 <name>Domaincount</name>
-                                <host>MN TL Barracuda Spam Firewall SNMPv3</host>
+                                <host>Barracuda Spam Firewall SNMPv3</host>
                             </resource>
                             <max_columns>3</max_columns>
                             <application/>
                         </screen_item>
                         <screen_item>
                             <resourcetype>0</resourcetype>
-                            <width>500</width>
-                            <height>100</height>
+                            <width>600</width>
+                            <height>200</height>
                             <x>1</x>
                             <y>2</y>
                             <colspan>1</colspan>
@@ -2657,9 +3092,31 @@
                             <sort_triggers>0</sort_triggers>
                             <resource>
                                 <name>Queue Size</name>
-                                <host>MN TL Barracuda Spam Firewall SNMPv3</host>
+                                <host>Barracuda Spam Firewall SNMPv3</host>
                             </resource>
                             <max_columns>3</max_columns>
+                            <application/>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>20</resourcetype>
+                            <width>600</width>
+                            <height>200</height>
+                            <x>0</x>
+                            <y>3</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>1</valign>
+                            <halign>0</halign>
+                            <style>0</style>
+                            <url/>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <resource>
+                                <name>Traffic on interface {#SNMPVALUE}</name>
+                                <host>Barracuda Spam Firewall SNMPv3</host>
+                            </resource>
+                            <max_columns>1</max_columns>
                             <application/>
                         </screen_item>
                     </screen_items>
@@ -2669,7 +3126,7 @@
     </templates>
     <triggers>
         <trigger>
-            <expression>{MN TL Barracuda Spam Firewall SNMPv3:cpuFanSpeed.max(3m)}&lt;1000</expression>
+            <expression>{Barracuda Spam Firewall SNMPv3:cpuFanSpeed.max(3m)}&lt;1000</expression>
             <name>CPU fanspeed critical on {HOST.NAME}</name>
             <url/>
             <status>0</status>
@@ -2679,7 +3136,7 @@
             <dependencies/>
         </trigger>
         <trigger>
-            <expression>{MN TL Barracuda Spam Firewall SNMPv3:cpuTemperature.max(3m)}&gt;60</expression>
+            <expression>{Barracuda Spam Firewall SNMPv3:cpuTemperature.min(3m)}&gt;60</expression>
             <name>CPU Temperature high on {HOST.NAME}</name>
             <url/>
             <status>0</status>
@@ -2689,7 +3146,7 @@
             <dependencies/>
         </trigger>
         <trigger>
-            <expression>{MN TL Barracuda Spam Firewall SNMPv3:deferredQueueSize.max(3m)}&gt;200</expression>
+            <expression>{Barracuda Spam Firewall SNMPv3:deferredQueueSize.max(3m)}&gt;200</expression>
             <name>deferredQueueSize high on {HOST.NAME}</name>
             <url/>
             <status>0</status>
@@ -2699,7 +3156,7 @@
             <dependencies/>
         </trigger>
         <trigger>
-            <expression>{MN TL Barracuda Spam Firewall SNMPv3:firmwareStorage.max(5m)}&gt;80</expression>
+            <expression>{Barracuda Spam Firewall SNMPv3:firmwareStorage.min(5m)}&gt;80</expression>
             <name>High firmwareStorage usage on {HOST.NAME}</name>
             <url/>
             <status>0</status>
@@ -2709,7 +3166,7 @@
             <dependencies/>
         </trigger>
         <trigger>
-            <expression>{MN TL Barracuda Spam Firewall SNMPv3:maillogStorage.max(5m)}&gt;70</expression>
+            <expression>{Barracuda Spam Firewall SNMPv3:maillogStorage.min(5m)}&gt;70</expression>
             <name>High maillogStorage usage on {HOST.NAME}</name>
             <url/>
             <status>0</status>
@@ -2719,7 +3176,7 @@
             <dependencies/>
         </trigger>
         <trigger>
-            <expression>{MN TL Barracuda Spam Firewall SNMPv3:inQueueSize.max(3m)}&gt;500</expression>
+            <expression>{Barracuda Spam Firewall SNMPv3:inQueueSize.max(3m)}&gt;500</expression>
             <name>inQueueSize high on {HOST.NAME</name>
             <url/>
             <status>0</status>
@@ -2729,7 +3186,7 @@
             <dependencies/>
         </trigger>
         <trigger>
-            <expression>{MN TL Barracuda Spam Firewall SNMPv3:outQueueSize.max(3m)}&gt;500</expression>
+            <expression>{Barracuda Spam Firewall SNMPv3:outQueueSize.max(3m)}&gt;500</expression>
             <name>outQueueSize high on {HOST.NAME}</name>
             <url/>
             <status>0</status>
@@ -2739,7 +3196,7 @@
             <dependencies/>
         </trigger>
         <trigger>
-            <expression>{MN TL Barracuda Spam Firewall SNMPv3:raidStatus.str(&quot;RAID status OK&quot;)}&lt;&gt;1</expression>
+            <expression>{Barracuda Spam Firewall SNMPv3:raidStatus.str(&quot;RAID status OK&quot;)}&lt;&gt;1</expression>
             <name>Raid Status not OK on {HOST.NAME}</name>
             <url/>
             <status>0</status>
@@ -2749,7 +3206,7 @@
             <dependencies/>
         </trigger>
         <trigger>
-            <expression>{MN TL Barracuda Spam Firewall SNMPv3:sysFanSpeed.max(3m)}&lt;1000</expression>
+            <expression>{Barracuda Spam Firewall SNMPv3:sysFanSpeed.max(3m)}&lt;1000</expression>
             <name>System fanspeed critical on {HOST.NAME}</name>
             <url/>
             <status>0</status>
@@ -2759,8 +3216,8 @@
             <dependencies/>
         </trigger>
         <trigger>
-            <expression>{MN TL Barracuda Spam Firewall SNMPv3:systemLoad.max(5m)}&gt;60</expression>
-            <name>System Load on {HOST.NAME} over 60%</name>
+            <expression>{Barracuda Spam Firewall SNMPv3:systemLoad.min(5m)}&gt;90</expression>
+            <name>System Load on {HOST.NAME} to high</name>
             <url/>
             <status>0</status>
             <priority>3</priority>
@@ -2796,7 +3253,7 @@
                     <calc_fnc>4</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>MN TL Barracuda Spam Firewall SNMPv3</host>
+                        <host>Barracuda Spam Firewall SNMPv3</host>
                         <key>maillogStorage</key>
                     </item>
                 </graph_item>
@@ -2808,7 +3265,7 @@
                     <calc_fnc>4</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>MN TL Barracuda Spam Firewall SNMPv3</host>
+                        <host>Barracuda Spam Firewall SNMPv3</host>
                         <key>firmwareStorage</key>
                     </item>
                 </graph_item>
@@ -2840,7 +3297,7 @@
                     <calc_fnc>4</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>MN TL Barracuda Spam Firewall SNMPv3</host>
+                        <host>Barracuda Spam Firewall SNMPv3</host>
                         <key>domainCount</key>
                     </item>
                 </graph_item>
@@ -2872,7 +3329,7 @@
                     <calc_fnc>4</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>MN TL Barracuda Spam Firewall SNMPv3</host>
+                        <host>Barracuda Spam Firewall SNMPv3</host>
                         <key>avgEmailLatency</key>
                     </item>
                 </graph_item>
@@ -2904,7 +3361,7 @@
                     <calc_fnc>4</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>MN TL Barracuda Spam Firewall SNMPv3</host>
+                        <host>Barracuda Spam Firewall SNMPv3</host>
                         <key>deferredQueueSize</key>
                     </item>
                 </graph_item>
@@ -2916,7 +3373,7 @@
                     <calc_fnc>4</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>MN TL Barracuda Spam Firewall SNMPv3</host>
+                        <host>Barracuda Spam Firewall SNMPv3</host>
                         <key>inQueueSize</key>
                     </item>
                 </graph_item>
@@ -2928,7 +3385,7 @@
                     <calc_fnc>4</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>MN TL Barracuda Spam Firewall SNMPv3</host>
+                        <host>Barracuda Spam Firewall SNMPv3</host>
                         <key>outQueueSize</key>
                     </item>
                 </graph_item>
@@ -2960,7 +3417,7 @@
                     <calc_fnc>4</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>MN TL Barracuda Spam Firewall SNMPv3</host>
+                        <host>Barracuda Spam Firewall SNMPv3</host>
                         <key>systemLoad</key>
                     </item>
                 </graph_item>
@@ -2992,7 +3449,7 @@
                     <calc_fnc>4</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>MN TL Barracuda Spam Firewall SNMPv3</host>
+                        <host>Barracuda Spam Firewall SNMPv3</host>
                         <key>cpuFanSpeed</key>
                     </item>
                 </graph_item>
@@ -3004,7 +3461,7 @@
                     <calc_fnc>4</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>MN TL Barracuda Spam Firewall SNMPv3</host>
+                        <host>Barracuda Spam Firewall SNMPv3</host>
                         <key>cpuTemperature</key>
                     </item>
                 </graph_item>
@@ -3016,7 +3473,7 @@
                     <calc_fnc>4</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>MN TL Barracuda Spam Firewall SNMPv3</host>
+                        <host>Barracuda Spam Firewall SNMPv3</host>
                         <key>sysFanSpeed</key>
                     </item>
                 </graph_item>

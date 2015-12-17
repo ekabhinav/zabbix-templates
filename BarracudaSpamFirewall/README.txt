@@ -6,3 +6,5 @@ You have to set the following macro at the ZABBIX host
 {$SNMP_COMMUNITY}
 
 At the Barracuda appliance, you have to set the same SNMP community.
+
+Tested with version 7.1.x
